@@ -34,7 +34,7 @@ jobs:
 
       - name: Build with Gradle
         run: |
-          ./gradlew build
+          ./lab2/gradlew build
           
   test:
     runs-on: ubuntu-latest
@@ -49,4 +49,4 @@ jobs:
 
     - name: Test Workflow
       run: |
-        ./gradlew test
+        ./lab2/gradlew test
